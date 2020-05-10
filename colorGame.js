@@ -15,6 +15,7 @@ easyBtn.addEventListener('click',function(){
     hardBtn.classList.remove('selected');
     easyBtn.classList.add('selected');
     h1.style.backgroundColor = "steelblue";
+    message.textContent = '';
     numSquares = 3;
     color = generateRandomColor(numSquares);
     colorSelected = selectColor();
@@ -36,6 +37,7 @@ hardBtn.addEventListener('click',function(){
     hardBtn.classList.add('selected');
     easyBtn.classList.remove('selected');
     h1.style.backgroundColor = "steelblue";
+    message.textContent = '';
     numSquares = 6;
     color = generateRandomColor(numSquares);
     colorSelected = selectColor();
